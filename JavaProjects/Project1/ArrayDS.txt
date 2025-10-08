@@ -1,0 +1,160 @@
+Pseudo Code file 4 ArrayDS
+
+public class ArrayDS<T> implements SequenceInterface<T> {
+
+    // Required fields
+    private final BagInterface<Integer>[][] array; // the underlying 2-D array
+    private int size; // the number of items in the sequence
+    private T[] alphabet; // the possible item values (e.g., the decimal digits)
+    private T firstItem; // the first item in the sequence
+    private T lastItem; // the last item in the sequence
+    // Additional fields can go here
+    
+
+    @SuppressWarnings("unchecked")
+    public ArrayDS(T[] alphabet) {
+        this.alphabet = alphabet;
+		this.array = new BagInterface[alphabet.length][alphabet.length]; 
+        for(int i=0; i < alphabet.length; i++) {
+            for(int j=0; j < alphabet.length; j++) {
+                array[i][j] = new ResizableArrayBag<Integer>();
+            }
+        }
+        this.size = 0;
+    }
+
+    public String toString() {
+        return "";
+    }
+
+    public void append(T item) {
+        check for space in last row of array
+        if (space exists), put item in next available spot
+        if (! space exists) make array bigger
+        increment size 
+    }
+
+    public void prefix(T item) {
+        shift all array elements 1 index over
+        put item in index 0
+        increment size of array
+    }
+
+    public T deleteHead() {
+        if sequence is empty, throw empty sequence exception
+        store first item for return
+        shift elements left to remove any gaps
+        decrement size
+
+        return deleted item;
+    }
+
+    public T deleteTail() {
+        if sequence empty, throw empty sequence exception
+        retrieve and store last item for return
+        remove the last item from the array (set to null)
+        decrement size
+        return deleted item;
+    }
+
+    public boolean isEmpty() {
+        if size counter is 0, return true
+        else return false;
+        return false;
+    }
+
+    public int size() {
+        return size counter
+        return 0;
+    }
+
+    public T first() {
+        check if the sequence is empty. Throw EmptySequenceException
+        retrieve and return the item at the first position (i 0)
+        return null;
+    }
+
+    public T last() {
+        check if the sequence is empty; EmptySequenceException
+        retrieve and return item at last logical position
+        (last non-null item in the 2D array)
+        return null;
+    }
+
+    public boolean hasSubsequence(SequenceInterface<T> another) {
+        convert sequences into arrays using toArray()
+        use sliding window approach to check if another appears in the current sequence
+
+        return t or f;
+    }
+
+    public boolean predecessor(T first, T second) {
+        convert sequence to 1D array with toArray()
+        find the index of first and second
+        return true if first appears immediately before second
+        otherwize return false;
+        return false;
+    }
+
+
+    public int getFrequencyOf(T item) {
+        convert sequence to a 1D array using toArray
+        initialize counter to 0
+        iterate through the array and increment the counter when item is found
+        return the final count
+        return 0;
+    }
+
+    public void clear() {
+        reinitialize the 2D array to its default size
+        reset size counter to 0
+      
+    }
+
+    public T itemAt(int position) {
+        check if the position is in bound. If not, IndexOutOfBoundsException
+        calculate the corresponding row and column in the 2D array
+        
+        return retrieve and return item;
+    }
+
+    public T[] toArray() {
+        initialize a new 1D array with same size as sequence
+        copy elements from 2D array into 1D array in logical order
+
+        return new 1D array;
+    }
+
+    public int firstOccurrenceOf(T item) {
+        convert sequence into array
+        iterate throgh the array and return the index of the first occurrence of item
+        if item is not found, return -1
+       return 0;
+    }
+
+    public int indexInAlphabet(T item) {
+        iterate through the alphabet array
+        return index of the item. If not found -1
+       return index or -1;
+    }
+
+    public int nextIndex(T item, int position) {
+        convert sequence to array
+        find the next item in the sequence after position
+        return the index of the next item in the alphabet (using indexInAlphabet())
+        if no item found, return -1
+        return 0;
+
+    }
+
+    public int prevIndex(T item, int position) {
+        convert sequence to 1D array
+        find previous item in sequence before position
+        return the index of the previous item in the alphabet
+        if no item found, return -1
+       return 0;
+    }
+
+    // The end!
+
+}

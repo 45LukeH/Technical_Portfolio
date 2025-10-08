@@ -1,0 +1,115 @@
+Customer 1 (21s transaction) arrived at time 4
+Customer 1 (21s transaction) began service at time 4
+Customer 2 (9s transaction) arrived at time 9
+Customer 2 (9s transaction) began service at time 26
+Customer 3 (24s transaction) arrived at time 37
+Customer 3 (24s transaction) began service at time 37
+Customer 4 (15s transaction) arrived at time 45
+Customer 5 (22s transaction) arrived at time 58
+Customer 4 (15s transaction) began service at time 62
+Customer 5 (22s transaction) began service at time 78
+Customer 6 (11s transaction) arrived at time 93
+Customer 7 (4s transaction) arrived at time 98
+Customer 8 (20s transaction) arrived at time 100
+Customer 6 (11s transaction) began service at time 101
+Customer 9 (10s transaction) arrived at time 103
+Customer 10 (8s transaction) arrived at time 104
+Customer 11 (29s transaction) arrived at time 106
+Customer 12 (5s transaction) arrived at time 108
+Customer 7 (4s transaction) began service at time 113
+Customer 13 (17s transaction) arrived at time 117
+Customer 8 (20s transaction) began service at time 118
+Customer 14 (21s transaction) arrived at time 138
+Customer 9 (10s transaction) began service at time 139
+Customer 15 (10s transaction) arrived at time 144
+Customer 16 (19s transaction) arrived at time 149
+Customer 10 (8s transaction) began service at time 150
+Customer 17 (19s transaction) arrived at time 158
+Customer 11 (29s transaction) began service at time 159
+Customer 18 (8s transaction) arrived at time 162
+Customer 19 (24s transaction) arrived at time 165
+Customer 20 (2s transaction) arrived at time 168
+Customer 21 (4s transaction) arrived at time 172
+Customer 22 (6s transaction) arrived at time 179
+Customer 12 (5s transaction) began service at time 189
+Customer 23 (6s transaction) arrived at time 191
+Customer 24 (3s transaction) arrived at time 194
+Customer 13 (17s transaction) began service at time 195
+Customer 25 (24s transaction) arrived at time 205
+Customer 14 (21s transaction) began service at time 213
+Customer 26 (3s transaction) arrived at time 220
+Customer 27 (6s transaction) arrived at time 222
+Customer 28 (2s transaction) arrived at time 223
+Customer 15 (10s transaction) began service at time 235
+Customer 29 (21s transaction) arrived at time 243
+Customer 16 (19s transaction) began service at time 246
+Customer 30 (30s transaction) arrived at time 262
+Customer 17 (19s transaction) began service at time 266
+Customer 31 (12s transaction) arrived at time 270
+Customer 18 (8s transaction) began service at time 286
+Customer 32 (10s transaction) arrived at time 289
+Customer 33 (16s transaction) arrived at time 292
+Customer 34 (23s transaction) arrived at time 294
+Customer 19 (24s transaction) began service at time 295
+Customer 35 (2s transaction) arrived at time 310
+Customer 36 (16s transaction) arrived at time 313
+Customer 37 (1s transaction) arrived at time 315
+Customer 20 (2s transaction) began service at time 320
+Customer 38 (20s transaction) arrived at time 322
+Customer 21 (4s transaction) began service at time 323
+Customer 39 (27s transaction) arrived at time 325
+Customer 40 (8s transaction) arrived at time 327
+Customer 22 (6s transaction) began service at time 328
+Customer 41 (28s transaction) arrived at time 335
+Customer 23 (6s transaction) began service at time 335
+Customer 42 (7s transaction) arrived at time 338
+Customer 24 (3s transaction) began service at time 342
+Customer 43 (23s transaction) arrived at time 343
+Customer 25 (24s transaction) began service at time 346
+Customer 44 (24s transaction) arrived at time 348
+Customer 26 (3s transaction) began service at time 371
+Customer 27 (6s transaction) began service at time 375
+Customer 45 (30s transaction) arrived at time 380
+Customer 28 (2s transaction) began service at time 382
+Customer 29 (21s transaction) began service at time 385
+Customer 46 (13s transaction) arrived at time 399
+Customer 30 (30s transaction) began service at time 407
+Customer 47 (28s transaction) arrived at time 417
+Customer 48 (30s transaction) arrived at time 419
+Customer 31 (12s transaction) began service at time 438
+Customer 49 (6s transaction) arrived at time 439
+Customer 50 (26s transaction) arrived at time 441
+Customer 32 (10s transaction) began service at time 451
+Customer 51 (6s transaction) arrived at time 454
+Customer 52 (10s transaction) arrived at time 458
+Customer 33 (16s transaction) began service at time 462
+Customer 53 (25s transaction) arrived at time 463
+Customer 54 (15s transaction) arrived at time 472
+Customer 55 (1s transaction) arrived at time 478
+Customer 34 (23s transaction) began service at time 479
+Customer 56 (2s transaction) arrived at time 482
+Customer 57 (20s transaction) arrived at time 491
+Customer 35 (2s transaction) began service at time 503
+Customer 36 (16s transaction) began service at time 506
+Customer 58 (10s transaction) arrived at time 508
+Customer 59 (29s transaction) arrived at time 519
+Customer 60 (24s transaction) arrived at time 523
+Customer 37 (1s transaction) began service at time 523
+Customer 38 (20s transaction) began service at time 525
+Customer 61 (14s transaction) arrived at time 546
+Customer 39 (27s transaction) began service at time 546
+Customer 62 (16s transaction) arrived at time 548
+Customer 63 (13s transaction) arrived at time 557
+Customer 64 (11s transaction) arrived at time 562
+Customer 40 (8s transaction) began service at time 574
+Customer 65 (26s transaction) arrived at time 582
+Customer 66 (6s transaction) arrived at time 583
+Customer 41 (28s transaction) began service at time 583
+Customer 67 (26s transaction) arrived at time 592
+Customer 68 (16s transaction) arrived at time 596
+Customer 69 (2s transaction) arrived at time 598
+
+Simulation Complete!
+Customer arrivals: 69
+Customers served:  41
+Average wait time: 118.21951219512195
